@@ -29,7 +29,8 @@ class PagesController extends Controller
 
 
         return redirect() -> route('thanks',['name' => $name]);
-        //Multiple paramters return redirect() -> route('thanks',['name' => $name,'email' => $email]);
+        //Multiple paramters --
+        // return redirect() -> route('thanks',['name' => $name,'email' => $email]);
     }
 
     function thanks($name)
