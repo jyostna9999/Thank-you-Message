@@ -42,7 +42,6 @@ class PagesController extends Controller
     /*To pass multiple parameters
     function thanks($name,$email)
     {
-        //return view('pages.thankyou')->with(compact('name'));
         return view('pages.thankyou')->with(compact(['name','email']));
     }*/
 }
