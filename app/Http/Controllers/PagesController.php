@@ -33,8 +33,9 @@ class PagesController extends Controller
         // return redirect() -> route('thanks',['name' => $name,'email' => $email]);
     }
 
-    function thanks($name)
+    function thanks($name, Request $request)
     {
+        //dd($request);
         //return view('pages.thankyou')->with(compact('name'));
         return view('pages.thankyou')->with(compact(['name']));
     }
